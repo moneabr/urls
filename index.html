@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Media Links</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      width: 150px;
+      margin-bottom: 1px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .social-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .social-buttons a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 50px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .facebook { background-color: #3b5998; }
+    .twitter { background-color: #1da1f2; }
+    .instagram { background-color: #e1306c; }
+    .linkedin { background-color: #0077b5; }
+
+    .social-buttons a:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo" class="logo" />
+    <h1>Follow Us</h1>
+    <div class="social-buttons">
+      <a href="https://facebook.com" class="facebook" target="_blank">Facebook</a>
+      <a href="https://twitter.com" class="twitter" target="_blank">Twitter</a>
+      <a href="https://instagram.com" class="instagram" target="_blank">Instagram</a>
+      <a href="https://linkedin.com" class="linkedin" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
